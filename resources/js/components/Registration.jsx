@@ -46,7 +46,7 @@ const Registration = () => {
     event.preventDefault();
     setIsLoading(true)
 
-    Axios.post('/api/v1/create-account', data)
+    Axios.post('/techinnover/api/v1/create-account', data)
     .then(response => {
       if(response.data.status) {
        setStateData(true, response.data.data)

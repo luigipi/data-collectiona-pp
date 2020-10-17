@@ -76,3 +76,9 @@ button {
 h5 {
   font-size: 17px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 560px) {
+  .row {
+    flex-direction: column;
+  }
+}

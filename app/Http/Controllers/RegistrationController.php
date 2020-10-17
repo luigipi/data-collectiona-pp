@@ -19,6 +19,7 @@ class RegistrationController extends Controller
             'age' =>  'required|integer|between:18,65',
             'dob' => 'required|date',
             'email' => 'required|email',
+            'passport' => 'sometimes|image|mimes:jpeg,JPG,png,gif|max:1024',
             'relatives' => 'required|array',
             'relationship' => 'in_array|relatives|requiured|string',
             'relatives_age' => 'in_array|relatives|requiured|integer',

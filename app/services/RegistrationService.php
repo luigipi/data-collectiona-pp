@@ -91,7 +91,7 @@
     public function delete($id) {
       $user = $this->registrants->find($id);
       if($user) {
-        $user->family_members->delete();
+        $user->family_members()->delete();
         $user->delete();
         return response()->json([
           'status' => true,
