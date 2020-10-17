@@ -24,4 +24,7 @@ Route::group(['prefix' => 'v1'], function() {
     });
 
     Route::post('/create-account', 'RegistrationController@store');
+    Route::get('/account/{id}', 'RegistrationController@show');
+    Route::put('/account/update/{id}', 'RegistrationController@update');
+    Route::delete('/account/{id}', 'RegistrationController@delete');
 });

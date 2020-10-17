@@ -2,9 +2,6 @@ import React, { Component, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import Axios from 'axios';
 import Header from './Header';
-import loader from '../assets/imgs/loader.gif';
-import FormField from './FormField'
-import { inArray } from 'jquery';
 
 
 const Registration = () => {
@@ -30,7 +27,6 @@ const Registration = () => {
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
   const [msg, setMsg] = useState()
-  const [touch, setTouch] = useState({})
   const [errors, setErrors] = useState({})
 
   function setStateData(status, details) {
@@ -52,7 +48,6 @@ const Registration = () => {
 
     Axios.post('/api/v1/create-account', data)
     .then(response => {
-      console.log('response', response)
       if(response.data.status) {
        setStateData(true, response.data.data)
        setIsError(false)
@@ -60,11 +55,15 @@ const Registration = () => {
       } 
       else {
         setIsError(true)
+        hideLoader()
+        if(response.data.message === 'error') {
+          setMsg('Fill the form correctly and try again')
+          return
+        }
         setMsg(response.data.message)
-      }
-      hideLoader()
+      }      
     })
-    .catch(err => console.log(err))
+    .catch(err => '')
   }
 
   function showForm() {
@@ -82,7 +81,6 @@ const Registration = () => {
       ...data,
       relatives: [...data.relatives, {relatives_name: '', relatives_age: '', relationship: ''}] 
     })
-    console.log('data', data)
   }
 
   function handleInputChange(e, index) {
@@ -131,7 +129,7 @@ const Registration = () => {
         <div className="row align-items-center justify-content-center mt-4">
           <div className="col-md-7 col-lg-7 bg-white p-4 shadow-sm reg-box">
             {
-              isError ? (
+              isError && msg !== '' ? (
                 <div className="alert alert-danger justify-content-between" onClick={hideError}>
                   {msg} <span onClick={hideError} className="right">x</span>
                 </div>
@@ -180,8 +178,8 @@ const Registration = () => {
                         <input 
                           type="number" 
                           name="age" 
-                          max={2}
-                          min={2}
+                          max={65}
+                          min={18}
                           className="form-control" 
                           placeholder="Age" 
                           required

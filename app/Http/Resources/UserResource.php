@@ -19,7 +19,7 @@ class UserResource extends JsonResource
             'name' => $this->name,
             'email' => $this->email,
             'date_of_birth' => $this->dob,
-            'passport' => asset('/public/'.$this->passport),
+            'passport' => asset('/public/imgs/'.$this->passport),
             'created_at' => (string) $this->created_at->toFormattedDateString(),
             'family_members' => $this->family_members
         ];

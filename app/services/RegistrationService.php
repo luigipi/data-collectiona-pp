@@ -17,13 +17,12 @@
     }
 
     public function store($request) {
-      //return $request->all();
       $check = $this->registrants->where('email', $request->email)->count();
       if($check >= 1) {
         return response()->json([
           'status' => false, 
           'message' => 'Seems you have an existing account. Check and try again'
-        ], 422);
+        ], 200);
       }
 
       $save = $this->registrants->create([
@@ -31,7 +30,7 @@
         'email' => $request->email,
         'dob' => $request->dob,
         'age' => $request->age,
-        'passport' => $this->passportUpload($request->passport)
+        'passport' => $this->passportUpload($request)
       ]);
         
       
@@ -54,33 +53,71 @@
       return response()->json([
         'status' => false, 
         'message' => 'Could not submit your data, try again'
-      ], 422);
+      ], 200);
     }
 
     public function show($id) {
-      return $this->registrants->find($id);
+      $data = $this->registrants->find($id);
+      if($data) {
+        return response()->json([
+          'status' => true,
+          'data' => new UserResource($data)
+        ]);
+      }
+
+      return response()->json([
+        'status' => false,
+        'message' => "Not found"
+      ]);
     }
 
-    public function update($request) {
-      $user = $this->registrants->find($request->id);
+    public function update($request, $id) {
+      $user = $this->registrants->find($id);
       $user->update($request->all());
+
       if($user) {
-        return true;
+        return response()->json([
+          'status' => true,
+          'data' => new UserResource($user)
+        ]);
       }
-      return false;
+
+      return response()->json([
+        'status' => false,
+        'message' => "Could not update record"
+      ]);
     }
 
     public function delete($id) {
       $user = $this->registrants->find($id);
       if($user) {
+        $user->family_members->delete();
         $user->delete();
-        return true;
+        return response()->json([
+          'status' => true,
+          'data' => new UserResource($user)
+        ]);
       }
-      return false;
+
+      return response()->json([
+        'status' => false,
+        'message' => "Could not delete record"
+      ]);
 
     }
 
-    public function passportUpload($image) {
-      return 'no-image.jpg';
+    public function passportUpload($request) {
+      if($file = $request->file('passport')) {
+          $fileName = time().time().'.'.$request->file->getClientOriginalExtension();
+          $target_dir = public_path('/imgs');
+
+          if($file->move($target_dir, $fileName)) {
+              $fileNameToStore = $fileName;
+          } else {
+              $fileNameToStore = "no-image.jpg";
+          }
+          return $fileNameToStore;
+      }
     }
+    
   }

@@ -14,40 +14,36 @@ class RegistrationController extends Controller
     }
 
     public function store(Request $request) {
-        return $this->regservice->store($request);
-    }
+        $validator = \Validator::make($request->all(), [
+            'name' => 'string|required',
+            'age' =>  'required|integer|between:18,65',
+            'dob' => 'required|date',
+            'email' => 'required|email',
+            'relatives' => 'required|array',
+            'relationship' => 'in_array|relatives|requiured|string',
+            'relatives_age' => 'in_array|relatives|requiured|integer',
+            'relatives_name' => 'in_array|relatives|requiured|string'
+        ]);
 
-    public function index() {
-        $page_status = null; 
-        return view('index')->withPageStatus($page_status);
+        if($validator->fails()) {
+            return response()->json([
+                'status' => false,
+                'message' => 'error',
+                'error' => $validator->errors()
+            ], 200);
+        }
+        return $this->regservice->store($request);
     }
 
     public function show($id) {
         return $this->regservice->show($id);
     }
 
-    public function create($id) {
-        $user = $this->regservice->show($id);
-        return view('admin.edit')->withUser($user);
-    }
-
-    public function edit(Request $request, $id) {
-     $update = $this->regservice->update($request, $id);
-     if($update) {
-        return back()->withMessage('Update successful');
-     }
-
-     return back()->withErrors("Could not update details");
+    public function update(Request $request, $id) {
+        return $this->regservice->update($request, $id);
     }
 
     public function delete($id) {
-        $status = $this->regservice->delete($id);
-        if($status) {
-            return back()->withMessage("Record deleted");
-        }
-
-        return back()->withErrors("Could not delete record");
+       return $this->regservice->delete($id);
     }
-
-
 }
