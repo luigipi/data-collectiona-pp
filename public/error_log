@@ -1,0 +1,470 @@
+[10-Oct-2020 20:33:49 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:33:49 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:35:10 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:35:10 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:35:41 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:35:41 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:35:45 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:35:45 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:35:48 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:35:48 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:42:22 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:42:22 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:42:59 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:42:59 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:43:03 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:43:03 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:44:25 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:44:25 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:44:29 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:44:29 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:45:27 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:45:27 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:45:30 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:45:30 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:45:34 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:45:34 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:45:58 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:45:58 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:46:02 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:46:02 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:46:22 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:46:22 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:46:34 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/public_html/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:46:34 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/public_html/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertEx in /home4/bennyseg/public_html/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 15:50:27 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:50:27 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:50:27 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:07 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:07 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:07 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:12 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:12 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 15:51:12 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminer/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 20:51:42 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 20:51:42 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 20:53:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Oct-2020 20:53:55 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[10-Oct-2020 20:53:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(568): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Cloner/Data.php(401): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpString(Object(Symf in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[10-Oct-2020 20:53:59 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[10-Oct-2020 20:53:59 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[10-Oct-2020 20:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(568): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Cloner/Data.php(401): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpString(Object(Symf in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[10-Oct-2020 21:03:08 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:03:09 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:04:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[10-Oct-2020 21:04:28 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[10-Oct-2020 21:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(568): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home4/bennyseg/seminar/vendor/symfony/var-dumper/Cloner/Data.php(401): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpString(Object(Symf in /home4/bennyseg/seminar/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[10-Oct-2020 21:05:05 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:05:05 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:06:05 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:06:05 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:07:39 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:07:39 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:07:42 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:07:42 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:07:57 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:07:57 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:08:21 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20151012
+These options need to match
+ in Unknown on line 0
+[10-Oct-2020 16:08:21 America/Chicago] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/bennyseg/seminar/vendor/ramsey/uuid/src/functions.php on line 34
+[10-Oct-2020 21:09:27 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:09:27 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:10:09 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:10:09 UTC] PHP Fatal error:  Uncaught ErrorException: Declaration of Illuminate\Http\Response::setContent($content) should be compatible with Symfony\Component\HttpFoundation\Response::setContent(?string $content) in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php:14
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Declaration of ...', '/home4/bennyseg...', 14, Array)
+#1 /home4/bennyseg/seminar/vendor/composer/ClassLoader.php(444): include('/home4/bennyseg...')
+#2 /home4/bennyseg/seminar/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home4/bennyseg...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): spl_autoload_call('Illuminate\\Http...')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Routing/ResponseFact in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php on line 14
+[10-Oct-2020 21:10:12 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:10:12 UTC] PHP Fatal error:  Uncaught ErrorException: Declaration of Illuminate\Http\Response::setContent($content) should be compatible with Symfony\Component\HttpFoundation\Response::setContent(?string $content) in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php:14
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php(14): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Declaration of ...', '/home4/bennyseg...', 14, Array)
+#1 /home4/bennyseg/seminar/vendor/composer/ClassLoader.php(444): include('/home4/bennyseg...')
+#2 /home4/bennyseg/seminar/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home4/bennyseg...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Http...')
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): spl_autoload_call('Illuminate\\Http...')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Routing/ResponseFact in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Http/Response.php on line 14
+[10-Oct-2020 21:10:28 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:10:28 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:11:27 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:11:27 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:11:30 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:11:30 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:12:30 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:12:30 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:13:00 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:13:00 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:13:04 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:13:04 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:13:33 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:13:34 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:14:01 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:14:01 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:14:08 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:14:08 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:14:51 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:14:51 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 21:14:55 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 21:14:55 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 22:39:43 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 22:39:43 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 22:40:23 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 22:40:23 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 22:41:19 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 22:41:19 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 22:43:54 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 22:43:54 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 17:48:36 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 17:48:36 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 17:48:36 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:05:55 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:05:55 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:05:55 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:06:05 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:06:05 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:06:05 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 23:06:29 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 23:06:29 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 23:06:33 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 23:06:33 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 23:06:35 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 23:06:35 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 23:06:38 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 23:06:38 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException))
+#4 /home4/bennyseg in /home4/bennyseg/seminar/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 18:08:33 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:08:33 America/Chicago] PHP Warning:  require(/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php): failed to open stream: No such file or directory in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 18:08:33 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/bennyseg/public_html/seminar/../../seminar/vendor/autoload.php' (include_path='.:/opt/php71/lib/php') in /home4/bennyseg/public_html/seminar/index.php on line 24
+[10-Oct-2020 23:26:33 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home4/bennyseg/seminar/new/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[10-Oct-2020 23:26:33 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home4/bennyseg/seminar/new/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home4/bennyseg/seminar/new/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home4/bennyseg/seminar/new/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home4/bennyseg/seminar/new/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home4/bennyseg/seminar/new/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(ErrorException) in /home4/bennyseg/seminar/new/vendor/symfony/http-foundation/Response.php on line 475
+[10-Oct-2020 23:27:51 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Contracts\Debug\ExceptionHandler::report(Exception $e) in /home4/bennyseg/seminar/app/Exceptions/Handler.php on line 8
+[10-Oct-2020 23:27:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build(Object(Closur in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[10-Oct-2020 23:29:24 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Contracts\Debug\ExceptionHandler::report(Exception $e) in /home4/bennyseg/seminar/app/Exceptions/Handler.php on line 8
+[10-Oct-2020 23:29:24 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(787): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build(Object(Closur in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[10-Oct-2020 23:30:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(175): Illuminate\Container\Container->o in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[10-Oct-2020 23:30:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(175): Illuminate\Container\Container->o in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[10-Oct-2020 23:31:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(175): Illuminate\Container\Container->o in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[10-Oct-2020 23:31:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(175): Illuminate\Container\Container->o in /home4/bennyseg/seminar/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
