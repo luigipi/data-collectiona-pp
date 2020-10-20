@@ -54,7 +54,7 @@ const Registration = () => {
         formdata.append('relatives[]', JSON.stringify(data.relatives))
 
 
-    Axios.post('https://iborwoman.com/techinnover/api/v1/create-account', formdata, {
+    Axios.post('/techinnover/api/v1/create-account', formdata, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }
