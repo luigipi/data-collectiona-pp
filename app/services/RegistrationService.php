@@ -17,6 +17,7 @@
     }
 
     public function store($request) {
+    
       $check = $this->registrants->where('email', $request->email)->count();
       if($check >= 1) {
         return response()->json([
@@ -24,7 +25,7 @@
           'message' => 'Seems you have an existing account. Check and try again'
         ], 200);
       }
-
+      
       $save = $this->registrants->create([
         "name" => $request->name,
         'email' => $request->email,
@@ -33,22 +34,35 @@
         'passport' => $this->passportUpload($request)
       ]);
         
-      
+        
       if($save) {
-        foreach ($request->relatives as $family_member) {
-          $this->family->create([
-            'user_id' => $save->id,
-            'name' => $family_member['relatives_name'],
-            'relationship' => $family_member['relationship'],
-            'age' => $family_member['relatives_age']
-          ]);
+        foreach ($request->relatives as $key => $family_member) {
+          if(is_array($family_member)) {
+            $this->family->create([
+              'user_id' => $save->id,
+              'name' => $family_member['relatives_name'],
+              'relationship' => $family_member['relationship'],
+              'age' => $family_member['relatives_age'],
+            ]);
+          } 
+          else {
+            $memba =  json_decode($family_member, true);
+            foreach ($memba as $keys => $value) {
+              $this->family->create([
+                'user_id' => $save->id,
+                'name' => $value['relatives_name'],
+                'relationship' => $value['relationship'],
+                'age' => $value['relatives_age'],
+              ]);
+            }
+          }
         }
         return response()->json([
           'status' => true, 
           'message' => 'Data submitted successfully', 
           'data' => new UserResource($save) 
         ], 201);
-      }
+     }
 
       return response()->json([
         'status' => false, 
@@ -108,7 +122,7 @@
 
     public function passportUpload($request) {
       if($file = $request->file('passport')) {
-          $fileName = time().time().'.'.$request->file->getClientOriginalExtension();
+          $fileName = time().time().'.'.$file->getClientOriginalExtension();
           $target_dir = public_path('/imgs');
 
           if($file->move($target_dir, $fileName)) {

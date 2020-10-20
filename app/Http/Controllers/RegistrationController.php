@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Services\RegistrationService;
+use App\services\RegistrationService;
 
 class RegistrationController extends Controller
 {
@@ -19,7 +19,7 @@ class RegistrationController extends Controller
             'age' =>  'required|integer|between:18,65',
             'dob' => 'required|date',
             'email' => 'required|email',
-            'passport' => 'sometimes|image|mimes:jpeg,JPG,png,gif|max:1024',
+            "passport" => "sometimes|image|mimes:JPG,jpeg,png,jpg,gif,svg|max:1024",
             'relatives' => 'required|array',
             'relationship' => 'in_array|relatives|requiured|string',
             'relatives_age' => 'in_array|relatives|requiured|integer',

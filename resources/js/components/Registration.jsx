@@ -45,8 +45,20 @@ const Registration = () => {
   function handleSubmit(event) {
     event.preventDefault();
     setIsLoading(true)
+    let formdata = new FormData();
+        formdata.append('passport', data.passport)
+        formdata.append('name', data.name)
+        formdata.append('age', data.age)
+        formdata.append('dob', data.dob)
+        formdata.append('email', data.email)
+        formdata.append('relatives[]', JSON.stringify(data.relatives))
 
-    Axios.post('/techinnover/api/v1/create-account', data)
+
+    Axios.post('https://iborwoman.com/techinnover/api/v1/create-account', formdata, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    })
     .then(response => {
       if(response.data.status) {
        setStateData(true, response.data.data)
@@ -63,7 +75,7 @@ const Registration = () => {
         setMsg(response.data.message)
       }      
     })
-    .catch(err => '')
+    .catch(err => console.log(''))
   }
 
   function showForm() {
@@ -84,21 +96,24 @@ const Registration = () => {
   }
 
   function handleInputChange(e, index) {
-     const {name, value, newValue, type} = e.target;
-
-    //  const value = type === 'number' ? +newValue : newValue;
-
+     const {name, value, files} = e.target;
+    
      let list  = [...data.relatives]
      let names = ['relatives_name', 'relatives_age', 'relationship'];
-
-      //setTouch({...touch, [name]: true})
 
      if(names.includes(name)) {
        list[index][name] = value
        setData({...data, relatives: list})
      } else {
-       setData({...data, [name]:value})
+       if(files && files[0]) {
+         let img = files[0]
+         setData({...data, passport: img})
+       }
+       else {
+         setData({...data, [name]:value})
+       }
      }
+
   }
 
   const handleBlur = evt => {
@@ -118,8 +133,6 @@ const Registration = () => {
     
     }   
 
-
-    console.log('errors', errors)
   };
   
   return (
@@ -267,7 +280,8 @@ const Registration = () => {
                           <div className="col">
                             <label htmlFor="relatives_age">Age:</label>
                             <input 
-                              type="text" 
+                              type="number" 
+                              min={1}
                               name="relatives_age"
                               className="form-control" 
                               placeholder="Age" 
